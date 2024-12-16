@@ -28,7 +28,7 @@ Ensure you have the following installed on your system:
    ```
 3. Install the required libraries:
    ```bash
-   pip install opencv-python numpy
+   pip install -r requirements.txt
    ```
 
 ## Usage
