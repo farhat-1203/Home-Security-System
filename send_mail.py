@@ -40,9 +40,9 @@ def send_mail(frame):
     # Create the jpg picture to attach.
     cv2.imwrite("intrude.jpg", frame)
 
-    gmail_user = 'Enter_gmail-ID_to_be_used_for_sending_the_email'
-    gmail_password = 'Enter_gmail-password'
-    recipient = 'Enter_gmail-ID_to_be_used_for_sending_the_email'
+    gmail_user = 'farhatmomin@eng.rizvi.edu.in'
+    gmail_password = 'Farhatfatimah@2005'
+    recipient = 'farhatmomin1225@gmail.com'
 
     message = 'Hey! It appears that someone is at home!!!'
 
