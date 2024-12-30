@@ -1,2 +1,3 @@
 opencv-python 
 secure-smtplib
+schedule==1.2.0
