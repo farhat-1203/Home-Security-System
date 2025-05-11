@@ -8,8 +8,7 @@ from send_mail import send_mail
 
 def detector():
 
-    # VideoCapture will literally capture the first camera that it sees
-    # available on your raspberry!
+    # VideoCapture capture the first video frame.
     cap = cv2.VideoCapture(0)
 
     # Loads the face_cascade classifier.
